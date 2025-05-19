@@ -5,7 +5,7 @@ import "./globals.css";
 const lexend = Lexend({
   variable: "--font-lexend",
   subsets: ["latin"],
-  weights: [300, 400, 500, 600, 700],
+  weight: ["300", "400", "500", "600", "700"],
 });
 
 const instrumentSerif = Instrument_Serif({
